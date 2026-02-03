@@ -5,59 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="ICDAR 2026 Competition on Writer and Pen Identification from Hand-Drawn Circles">
+  <meta name="description" content="CircleID is the ICDAR 2026 competition on identifying writer and pen type from scanned hand-drawn circles.">
+  <meta name="keywords" content="writer identification, pen classification, handwriting, ICDAR, competition, machine learning, computer vision, AI">
+  <meta name="author" content="Thomas Gorges, Janne van der Loop, Fei Wu, Mathias Seuret, Vincent Christlein">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="Pattern Recognition Lab, Friedrich-Alexander-Universität Erlangen-Nürnberg">
+  <meta property="og:title" content="ICDAR 2026 Competition on Writer and Pen Identification from Hand-Drawn Circles">
+  <meta property="og:description" content="CircleID is the ICDAR 2026 competition on identifying writer and pen type from scanned hand-drawn circles.">
+  <meta property="og:url" content="https://thomasgorges.github.io/icdar2026-circleid/">
+  <meta property="og:image" content="">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
   <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:author" content="Thomas Gorges">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="competition">
+  <meta property="article:tag" content="writer identification">
+  <meta property="article:tag" content="pen classification">
+  <meta property="article:tag" content="ICDAR">
+  <meta property="article:tag" content="handwriting">
+  <meta property="article:tag" content="machine learning">
+  <meta property="article:tag" content="computer vision">
+  <meta property="article:tag" content="AI">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
-
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -73,12 +49,11 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>CircleID: ICDAR 2026 Competition on Writer and Pen Identification from Hand-Drawn Circles</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="https://lme.tf.fau.de/favicon.ico">
+  <link rel="apple-touch-icon" href="https://lme.tf.fau.de/favicon.ico">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -108,75 +83,6 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
 </head>
 <body>
 
@@ -188,45 +94,34 @@
 
   <!-- More Works Dropdown -->
   <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View our previous challenges">
+      <i class="fas fa-trophy"></i>
+      Our previous challenges
       <i class="fas fa-chevron-down dropdown-arrow"></i>
     </button>
     <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
       <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+        <a href="https://lme.tf.fau.de/competitions/icdar-2025-competition-on-glyph-detection-in-15th-century-european-printed-documents/" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <h5>ICDAR 2025 Competition on Glyph Detection in 15th-Century European Printed Documents</h5>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+        <a href="https://lme.tf.fau.de/competitions/icdar2024-competition-on-multi-font-group-recognition-and-ocr/" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>ICDAR 2024 Competition on Multi Font Group Recognition and OCR</h5>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+        <a href="https://lme.tf.fau.de/competitions/2023-competition-on-detection-and-recognition-of-greek-letters-on-papyri/" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>ICDAR 2023 Competition on Detection and Recognition of Greek Letters on Papyri</h5>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://lme.tf.fau.de/competitions/icdar-2021-competition-on-historical-document-classification/" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>ICDAR 2021 Competition on Historical Document Classification</h5>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -237,72 +132,87 @@
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
-      <div class="container is-max-desktop">
+      <div class="container is-max-widescreen">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">CircleID: ICDAR 2026 Competition on Writer and Pen Identification from Hand-Drawn Circles</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://lme.tf.fau.de/person/gorges/" target="_blank">Thomas Gorges</a><sup>1</sup></span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://www.jannevanderloop.com/" target="_blank">Janne van der Loop</a><sup>2</sup></span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://lme.tf.fau.de/person/feiwu/" target="_blank">Fei Wu</a><sup>1</sup>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://lme.tf.fau.de/person/seuret/" target="_blank">Mathias Seuret</a><sup>1</sup>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://lme.tf.fau.de/person/christlein/" target="_blank">Vincent Christlein</a><sup>1</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup> Pattern Recognition Lab, Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany</span>
+                    <span class="author-block"><sup>2</sup> Buchwissenschaft, Johannes Gutenberg-Universität Mainz, Germany</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="#Dataset"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-file"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Dataset</span>
                     </a>
                   </span>
 
-                  <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/ThomasGorges/icdar2026-circleid-baseline" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Baseline</span>
                   </a>
                 </span>
 
-                <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-writer-identification" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-fingerprint"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Kaggle: Writer Task</span>
+                </a>
+
+                <span class="link-block">
+                  <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-pen-classification" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-pen-nib"></i>
+                  </span>
+                  <span>Kaggle: Pen Task</span>
+                </a>
+
+                <span class="link-block">
+                  <a href="#SubmissionFormat"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-upload"></i>
+                  </span>
+                  <span>How to submit</span>
+                </a>
+
+                <span class="link-block">
+                  <a href="#Contact"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span>Contact</span>
                 </a>
               </span>
             </div>
@@ -314,35 +224,23 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Description</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            <strong>CircleID</strong> is the ICDAR 2026 competition on identifying who drew a circle and which pen was used, using only scanned images of hand-drawn circles.
+            Although a circle is a simple shape, it contains rich, subtle cues from both human motor behavior and pen/ink characteristics.
+            The challenge is to learn representations that disentangle writer style from pen properties in static images.
           </p>
+          <p>
+            Participants receive a new dataset of <strong>40250</strong> scanned, circle images collected under controlled conditions from <strong>51</strong> writers and <strong>8</strong> pens.
+            Two tasks are evaluated: <strong>(1) writer identification</strong> (with an “unknown writer” class) and <strong>(2) pen classification</strong>.
+          </p>
+
         </div>
       </div>
     </div>
@@ -350,165 +248,267 @@
 </section>
 <!-- End paper abstract -->
 
+<section class="section" id="Samples">
+  <div class="container is-max-widescreen">
+    <div class="content">
+      <h2 class="title is-3">Samples</h2>
+        <p>
+          Randomly selected circle crops from the training set.
+        </p>
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+        <figure class="image">
+          <a href="static/images/mosaic.png" target="_blank" rel="noopener">
+            <img src="static/images/mosaic.png" alt="Mosaic of circle samples" loading="lazy">
+          </a>
+        </figure>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
+<section class="section" id="Tasks">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Tasks</h2>
+    <p>
+      CircleID features two related classification tasks on static images of hand-drawn circles.
+      The goal is to learn visual representations that separate <strong>writer-specific</strong> traits
+      from <strong>pen-specific</strong> traits (ink deposition, stroke texture, width).
+    </p>
+
+    <h3 class="title is-5">Task 1: Writer Identification</h3>
+    <ul>
+      <li>
+        <strong>Objective:</strong> Predict the writer ID for circles drawn by known writers. For circles drawn by writers not present in training, output <code>-1</code> (unknown writer).
+      </li>
+      <li>
+        <strong>Out-of-distribution:</strong> The test set includes circles from unseen writers (not present in training).
+        For these samples, participants must output <code>-1</code> as the predicted writer ID.
+      </li>
+    </ul>
+
+    <h3 class="title is-5">Task 2: Pen Classification</h3>
+    <ul>
+      <li>
+        <strong>Objective:</strong> Predict which of the predefined pen types was used to draw each circle.
+        This task tests robustness across both known and unseen writers.
+      </li>
+      <li>
+        <strong>Applies to all test images:</strong> A pen prediction is required for every sample, including
+        those from unseen writers.
+      </li>
+    </ul>
+
+    <p>
+      Key challenges include feature entanglement (writer habits vs. pen properties) and high intra-writer variability despite strong inter-writer similarity.
+    </p>
   </div>
 </section>
-<!-- End video carousel -->
 
 
+<section class="section" id="Dataset">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Dataset</h2>
 
+    <p>
+      The CircleID dataset contains <strong>40250</strong> tightly-cropped images of
+      hand-drawn circles collected in a controlled study with <strong>51</strong> writers
+      using <strong>8</strong> different pens. Templates were digitized with high-resolution scans
+      (400 dpi), and each circle was automatically extracted and manually linked to ground truth labels.
+    </p>
 
+    <ul>
+      <li><strong>Images:</strong> PNG files, one circle per image.</li>
+      <li><strong>Labels:</strong> Writer ID and pen ID (only provided for training set).</li>
+    </ul>
 
+    <h3 class="title is-5">Data split</h3>
+    <p>
+      The dataset is split using a hybrid protocol to evaluate both writer identification and
+      generalization for pen classification:
+    </p>
+    <ul>
+      <li><strong>Known writers (44):</strong> Used for training and testing writer identification.</li>
+      <li><strong>Unseen writers (7):</strong> Held out entirely for the final test set (Part A).</li>
+      <li><strong>Training set:</strong> 70% of images from the 44 known writers.</li>
+      <li><strong>Test set Part B:</strong> Remaining 30% of images from the 44 known writers.</li>
+      <li><strong>Final test set:</strong> Part A (all images from unseen writers) + Part B.</li>
+    </ul>
 
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
+    <p>
+      The dataset can be accessed through the Kaggle competitions pages (<a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-writer-identification" target="_blank">Writer Identification</a> & <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-pen-classification" target="_blank">Pen Classification</a>). Ground truth for the test set remains confidential during the competition.
+    </p>
+  </div>
 </section>
-<!--End BibTex citation -->
 
+
+<section class="section" id="SubmissionFormat">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Submission Format</h2>
+
+    <h3 class="title is-5">Training data</h3>
+    <ul>
+      <li><strong>Images:</strong> Directory of <code>.png</code> files.</li>
+      <li>
+        <strong>Manifest:</strong> <code>train.csv</code> with columns:
+        <code>image_id</code>, <code>image_path</code>, <code>writer_id</code>, <code>pen_id</code>.
+      </li>
+    </ul>
+
+    <h3 class="title is-5">Test data</h3>
+    <ul>
+      <li><strong>Images:</strong> Directory of <code>.png</code> files.</li>
+      <li>
+        <strong>Manifest:</strong> <code>test.csv</code> with columns:
+        <code>image_id</code>, <code>image_path</code>.
+      </li>
+      <li><strong>Ground truth:</strong> Not provided for the test set.</li>
+    </ul>
+
+    <h3 class="title is-5">Your submission</h3>
+    <p>
+      CircleID is hosted as two separate Kaggle competitions with independent leaderboards and submission files:
+      one for writer identification and one for pen classification.
+    </p>
+
+
+    <ul>
+      <li>
+        <strong>Writer Identification competition:</strong> Submit <code>submission_writer.csv</code> with columns
+        <code>image_id</code>, <code>writer_id</code>. For unseen writers, set <code>writer_id</code> to <code>-1</code>.
+      </li>
+      <li>
+        <strong>Pen Classification competition:</strong> Submit <code>submission_pen.csv</code> with columns
+        <code>image_id</code>, <code>pen_id</code>. A pen prediction is required for all test images.
+      </li>
+    </ul>
+
+    Kaggle competition pages:
+    <ul>
+      <li>
+        <strong>Writer Identifiction: </strong> <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-writer-identification" target="_blank">ICDAR 2026 - CircleID: Writer Identification</a>
+      </li>
+      <li>
+        <strong>Pen Classification: </strong> <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-pen-classification" target="_blank">ICDAR 2026 - CircleID: Pen Classification</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<section class="section" id="Evaluation">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Evaluation</h2>
+
+    <p>
+      CircleID includes two independent leaderboards, one per task. Rankings are based on top-1 accuracy.
+    </p>
+
+    <h3 class="title is-5">Task 1 Leaderboard: Writer Identification</h3>
+    <ul>
+      <li><strong>Metric:</strong> Top-1 accuracy.</li>
+      <li>
+        <strong>Evaluation data:</strong> Full test set (Part A + Part B). For Part B, predict the correct known writer ID. For Part A, predict -1.
+      </li>
+    </ul>
+
+    <h3 class="title is-5">Task 2 Leaderboard: Pen Classification</h3>
+    <ul>
+      <li><strong>Primary metric:</strong> Top-1 accuracy.</li>
+      <li><strong>Supplementary metric:</strong> Macro-averaged F1-score (reported for analysis).</li>
+      <li>
+        <strong>Evaluation data:</strong> Full test set (Part A + Part B) to measure robustness across both known and unseen writers.
+      </li>
+    </ul>
+
+    <p>
+      Winners will be announced for each leaderboard at the conclusion of the competition.
+    </p>
+  </div>
+</section>
+
+
+<section class="section" id="Baseline">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Baseline</h2>
+
+    <p>
+      We provide a simple but effective baseline to help participants get started and to establish an initial benchmark.
+      The baseline is a ResNet model pre-trained on ImageNet and fine-tuned on CircleID.
+      A single training script supports both tasks via a <code>TASK</code> switch.
+    </p>
+
+    <ul>
+      <li><strong>Backbone:</strong> ResNet feature extractor pre-trained on ImageNet.</li>
+      <li><strong>Head:</strong> One task-specific fully connected classification layer.</li>
+      <li><strong>Two modes:</strong> Set <code>TASK="writer"</code> for writer ID prediction, or <code>TASK="pen"</code> for pen ID prediction.</li>
+      <li><strong>Code:</strong> Training and inference code are located in the Kaggle Challenges (<a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-writer-identification" target="_blank">Writer Identification</a> & <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-pen-classification" target="_blank">Pen Classification</a>) and on <a href="https://github.com/ThomasGorges/icdar2026-circleid-baseline" target="_blank">GitHub</a>.</li>
+    </ul>
+  </div>
+</section>
+
+
+<section class="section" id="Timeline">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Timeline</h2>
+    <ul>
+      <li><strong>Feb 3, 2026:</strong> Registration and submission to Kaggle open; Training data with ground truth released; Hold-out test set without ground truth released</li>
+      <li><strong>April 3, 2026:</strong> Official submission deadline.</li>
+      <li><strong>April 17, 2026:</strong> Submission of the initial competition report.</li>
+      <li><strong>May 4, 2026:</strong> Camera-ready report submission.</li>
+      <li><strong>June 22, 2026:</strong> Winners communicated to the chairs.</li>
+    </ul>
+
+    <p>
+      Note: Submissions remain open after the official end of the competition to support ongoing benchmarking.
+    </p>
+  </div>
+</section>
+
+
+<section class="section" id="Contact">
+  <div class="container is-max-widescreen content">
+    <h2 class="title is-3">Contact</h2>
+
+    <p>
+      For questions about the CircleID competition (dataset access, rules, submissions, evaluation), please contact the organizers:
+    </p>
+
+    <ul>
+        <li>
+          E-Mail: <a href="mailto:thomas.gorges@fau.de">thomas.gorges@fau.de</a>
+        </li>
+        <li>
+          Kaggle discussion (Writer Identification): <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-writer-identification/discussion" target="_blank">Discussion Forum</a>
+        </li>
+        <li>
+          Kaggle discussion (Pen Classification): <a href="https://www.kaggle.com/competitions/icdar-2026-circle-id-pen-classification/discussion" target="_blank">Discussion Forum</a>
+        </li>
+    </ul>
+  </div>
+</section>
 
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
+          <p>
+            <a href="https://lme.tf.fau.de/imprint/">Imprint</a> | <a href="https://lme.tf.fau.de/privacy/">Data privacy</a> | Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> (GitHub, Inc.). (<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>)
+          </p>
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+          </p>
+          <p>
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
+
 
 <!-- Statcounter tracking code -->
   
